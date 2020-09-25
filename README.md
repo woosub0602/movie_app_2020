@@ -2,6 +2,8 @@
 
 ## movie_app_2020
 React JS Fundamentals Course 2020
+## 09월 25일
+>1. images폴더 5장 사진 넣고 App.js에 집어넣기
 ## 09월 18일
 >1. 컴포넌트가 무엇인지 알아보고, JSX를 학습.
 >2. JSX는 단지 HTML과 자바스크립트를 조합한 문법이다.
