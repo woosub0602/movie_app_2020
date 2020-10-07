@@ -2,6 +2,9 @@
 
 ## movie_app_2020
 React JS Fundamentals Course 2020
+## 10월 07일
+>1. rating을 이용해 평점 매기기
+>2. state, count, current 이용해 버튼 누르면 +1,-1 구현하기
 ## 09월 25일
 >1. images폴더 5장 사진 넣고 App.js에 집어넣기
 ## 09월 18일
