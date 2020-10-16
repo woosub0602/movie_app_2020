@@ -1,26 +1,23 @@
 import React from 'react';
+import axios from 'axios';
 
 class App extends React.Component {
   state = {
-    count: 0
+    isLoading: true,
+    movies: [],
   }
-
-  add = () => {
-    this.setState(current => ({
-      count: current.count +1,
-    }));
-  };
-  minus = () => {
-    this.setState(current => ({
-      count: current.count -1,
-    }));
-  };
-  render() {
+  getMovies = async () => {
+    const movies = await axios.get('https://yts-proxy.now.sh/list_movies.json');
+  }
+  componentDidMount() {
+    // 영화 데이터 로딩
+    this.getMovies();
+  }
+  render() { 
+    const {isLoading} = this.state;
     return(
       <div>
-      <h1>I'm class component {this.state.count}</h1>
-      <button onClick={this.add}>Add</button>&nbsp;&nbsp;&nbsp;
-      <button onClick={this.minus}>Minus</button>
+        {isLoading ? 'Loading...' : 'ready!'}
       </div>
     );
   } 
