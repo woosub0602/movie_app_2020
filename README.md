@@ -2,6 +2,10 @@
 
 ## movie_app_2020
 React JS Fundamentals Course 2020
+## 10월 16일
+>1. componentDidMount,componentWillUpdate,componentWillUnmount함수를 이용해서
+    버튼 클릭시 표시되게 하기
+>2. 수업내용 듣고 영화 데이터 로딩하기
 ## 10월 07일
 >1. rating을 이용해 평점 매기기
 >2. state, count, current 이용해 버튼 누르면 +1,-1 구현하기
