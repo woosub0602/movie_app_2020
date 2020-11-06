@@ -2,6 +2,10 @@
 
 ## movie_app_2020
 React JS Fundamentals Course 2020
+## 10월 30일
+>1. Movie를 이용한 데이터 로딩
+>2. import PropTypes from 'prop-types'; 에서 PropTypes 대문자와
+Movie.propTypes = { 에 들어가는 p의 대문자 소문자 구별 잘해야함
 ## 10월 16일
 >1. componentDidMount,componentWillUpdate,componentWillUnmount함수를 이용해서
     버튼 클릭시 표시되게 하기
