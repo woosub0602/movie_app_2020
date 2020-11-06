@@ -2,6 +2,8 @@
 
 ## movie_app_2020
 React JS Fundamentals Course 2020
+## 11월 06일
+>1. 좀 더 세부적인 수업내용을 이용해 점차 완벽해지는 영화 데이터 만들기
 ## 10월 30일
 >1. Movie를 이용한 데이터 로딩
 >2. import PropTypes from 'prop-types'; 에서 PropTypes 대문자와
