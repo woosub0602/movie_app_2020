@@ -11,7 +11,13 @@ class Detail extends React.Component {
     render() {
         const { location } = this.props;
         if (location.state) {
-            return <span>{location.state.title}...</span>;
+            return (
+                <div>
+                    <img src={location.state.poster} alt={location.state.title} />
+                    <h1>{location.state.title}</h1>
+                    <h3>{location.state.year}</h3>
+                </div>
+            );
         } else {
             return null;
         }

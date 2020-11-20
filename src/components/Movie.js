@@ -8,7 +8,7 @@ return(
     <div className="movie">
         <Link
             to={{
-                pathname: 'movie-datail',
+                pathname: 'movie-detail',
                 state: { year, title, summary, poster, genres }
             }}
         >
